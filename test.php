@@ -156,6 +156,9 @@ class Str
      */
     public static function beforeLast($subject, $search)
     {
+        /*
+         * TODO: Somthing 2, maybe it will work maybe not?
+         */
         if ($search === '') {
             return $subject;
         }
