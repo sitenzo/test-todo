@@ -173,6 +173,7 @@ class Str
     }
 
     /**
+     * @TODO: test 3
      * Get the portion of a string between two given values.
      *
      * @param  string  $subject
@@ -239,6 +240,7 @@ class Str
             $needles = (array) $needles;
         }
 
+        // TODO: Test 4
         foreach ($needles as $needle) {
             if ($ignoreCase) {
                 $needle = mb_strtolower($needle);
