@@ -334,6 +334,8 @@ class Str
     /**
      * Cap a string with a single instance of a given value.
      *
+     * TODO: Something to work on
+     *
      * @param  string  $value
      * @param  string  $cap
      * @return string
@@ -375,7 +377,7 @@ class Str
 
         foreach ($pattern as $pattern) {
             $pattern = (string) $pattern;
-
+            // TODO: Another comment
             // If the given value is an exact match we can of course return true right
             // from the beginning. Otherwise, we will translate asterisks and do an
             // actual pattern match against the two strings to see if they match.
