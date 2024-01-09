@@ -285,7 +285,7 @@ class Str
         if (! is_iterable($needles)) {
             $needles = (array) $needles;
         }
-
+        // TODO: Test 5
         foreach ($needles as $needle) {
             if ((string) $needle !== '' && str_ends_with($haystack, $needle)) {
                 return true;
